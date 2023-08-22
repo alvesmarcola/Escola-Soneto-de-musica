@@ -1,0 +1,30 @@
+/* Style on buttons */
+.fa {
+  padding: 11px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 90%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #ff9a3c;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #ff9a3c;
+  color: white;
+}
+  
+  

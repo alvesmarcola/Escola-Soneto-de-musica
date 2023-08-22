@@ -1,0 +1,176 @@
+/*Responsividade*/
+
+@media screen and (min-width: 640px){
+    header nav{
+        
+        text-align: center;
+    }
+
+    header nav a {
+        margin-right: 70px;
+        margin-left: -15px;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    .img-logo{
+        margin-left: auto -9px ;
+    }
+
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card:nth-child(2n){
+        margin-top: 1rem;
+
+    }
+
+    .button{
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .menu-rodape a{
+        
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-section p{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 50rem){
+
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header img, header nav, header .button{
+        margin: 0;
+    }
+
+    h1,h2{
+        font-size: 4rem;
+    }
+
+    header nav , footer nav  {
+        display: flex;
+    }
+
+    .container img{
+        margin-left: -150px;
+        margin-right: 60px;
+    }
+
+    .hero-section h1{
+        font-size: 5rem;
+    }
+
+    .hero-section p{
+        font-size: 2rem;
+    }
+
+    .newspaper{
+        margin-left: 50px;
+    } 
+
+    .eventos .container{
+        flex-direction: column;
+    }
+
+    .eventos .container img{
+        width: 60rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .eventos .container P{
+        font-size: 2rem;
+    }
+
+    footer{
+        
+    }
+
+    /*Footer*/
+
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .redes-sociais{
+        float: right;
+    }
+
+    .menu-rodape{
+        display: contents;
+        
+    }
+
+    .redes-sociais{
+        display: flex;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 72rem) {
+
+    .container{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 72rem;
+    }
+    
+    .container .row-reverse{
+        flex-direction: row-reverse;
+        display: inline-flex;
+    }
+
+    .about-coloum{
+        flex: 2;
+    }
+
+    .about-coloum p {
+        font-size: 1.25rem;
+        max-width: 16rem;
+    }
+
+    footer nav{
+        flex: 1;
+    }
+
+    .newspaper form{
+        flex: 3;
+    }
+
+    .redes-sociais{
+        flex: 4;
+    }
+
+    h1,h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:80rem) {
+    
+    .container{
+        max-width: 80rem;
+    }
+
+
+}
